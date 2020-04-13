@@ -60,6 +60,9 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
+.navbar-item {
+  text-align: center;
+}
 .navbar-item img {
   max-height: 2rem;
 }
@@ -72,7 +75,6 @@ export default {
 .navbar-burger {
   height: auto;
 }
-
 .navbar-menu a {
   display: block;
 }

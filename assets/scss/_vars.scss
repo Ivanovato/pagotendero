@@ -2,10 +2,14 @@
 @import "~bulma/sass/utilities/_all";
 
 // Set your colors
-$primary: #00d1b2;
+$primary: #283593;
 $primary-invert: findColorInvert($primary);
 $twitter: #4099FF;
 $twitter-invert: findColorInvert($twitter);
+$pcolor-1: #ffffff;
+$pcolor-1-invert: findColorInvert($pcolor-1);
+$pcolor-2: #039be5;
+$pcolor-2-invert: findColorInvert($pcolor-2);
 
 // Setup $colors to use as bulma classes (e.g. 'is-twitter')
 $colors: (
@@ -18,7 +22,9 @@ $colors: (
   "success": ($success, $success-invert),
   "warning": ($warning, $warning-invert),
   "danger": ($danger, $danger-invert),
-  "twitter": ($twitter, $twitter-invert)
+  "twitter": ($twitter, $twitter-invert),
+  "pcolor-1": ($pcolor-1, $pcolor-1-invert),
+  "pcolor-2": ($pcolor-2, $pcolor-2-invert)
 );
 
 // Links

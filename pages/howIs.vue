@@ -1,8 +1,8 @@
 <template>
   <div id="about-page" class="page-wrapper about-page content-page">
     <site-hero
-      title="Sobre Nosotros"
-      subtitle="Birindamos ayuda a los tenderos y pequeños comerciantes"
+      title="¿Como funciona? "
+      subtitle="Tus pagos seguros con la ayuda de EPAYCO - DAVIVIENDA"
       image="/uploads/about-hero.jpg"
     ></site-hero>
     <main-section theme="sidebar-right">
